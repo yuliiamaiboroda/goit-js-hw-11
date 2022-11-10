@@ -1,6 +1,6 @@
-import './styles.css';
-import { PixabayApi, PixabayApi } from "./get-cards";
-import { createElementsOfGallery } from "./markup";
+import './css/styles.css'
+import { PixabayApi, PixabayApi } from "./js/get-cards";
+import { createElementsOfGallery } from "./js/markup";
 import { Notify } from "notiflix";
 import simpleLightbox from 'simplelightbox';
 import "simplelightbox/dist/simple-lightbox.min.css";
