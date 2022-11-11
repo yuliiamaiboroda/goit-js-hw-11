@@ -1,10 +1,27 @@
-{
-  "printWidth": 80,
-  "useTabs": false,
-  "semi": true,
-  "singleQuote": true,
-  "trailingComma": "es5",
-  "bracketSpacing": true,
-  "arrowParens": "avoid",
-  "proseWrap": "always"
+{ "files.autoSave": "onFocusChange",
+"editor.wordWrap": "on",
+"editor.formatOnPaste": false,
+"editor.formatOnSave": true,
+"editor.formatOnType": false,
+"[html]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[json]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[javascript]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[css]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"[scss]": {
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"diffEditor.ignoreTrimWhitespace": false,
+"editor.cursorBlinking": "smooth",
+"editor.cursorWidth": 2,
+"terminal.integrated.defaultProfile.windows": "Git Bash",
+"workbench.iconTheme": "material-icon-theme",
+"liveServer.settings.donotShowInfoMsg": true
 }
